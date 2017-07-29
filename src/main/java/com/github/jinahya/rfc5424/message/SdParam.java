@@ -15,12 +15,13 @@
  */
 package com.github.jinahya.rfc5424.message;
 
-import java.io.Serializable;
-
 /**
  *
  * @author Jin Kwon &lt;onacit at gmail.com&gt;
  */
-public class SyslogMessage implements Serializable {
+public class SdParam {
 
+    private String sdId;
+
+    private String sdParam;
 }
